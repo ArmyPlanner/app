@@ -11,15 +11,15 @@
   IgnorableNamespaces="uap rescap genTemplate">
 
   <Identity
-    Name="b336b39d-a799-4078-b298-b160fc4963a1"
-    Publisher="CN=larsk"
+    Name="45012KrimmerStudios.ArmyPlanner"
+    Publisher="CN=685DD444-787C-4F01-AFD6-C59B21F062E1"
     Version="1.0.0.0" />
     
-  <mp:PhoneIdentity PhoneProductId="b336b39d-a799-4078-b298-b160fc4963a1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b1756207-710e-4764-8bf0-be21db8ebdc1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
-    <DisplayName>ArmyPlanner.WinUI.App</DisplayName>
-    <PublisherDisplayName>larsk</PublisherDisplayName>
+    <DisplayName>ArmyPlanner</DisplayName>
+    <PublisherDisplayName>Lars Krämer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -42,8 +42,12 @@
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscapeFlipped"/>
+          <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
+        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badge"/>
       </uap:VisualElements>
       <Extensions>
           <desktop:Extension Category="windows.toastNotificationActivation">
@@ -63,6 +67,7 @@
 
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
+    <Capability Name="internetClient"/>
   </Capabilities>
 
   <genTemplate:Metadata>
