@@ -1,0 +1,447 @@
+@font-face {
+  font-family: 'Fluent-System-Regular';
+  src:  url('fonts/Fluent-System-Regular.eot?z5evcq');
+  src:  url('fonts/Fluent-System-Regular.eot?z5evcq#iefix') format('embedded-opentype'),
+    url('fonts/Fluent-System-Regular.ttf?z5evcq') format('truetype'),
+    url('fonts/Fluent-System-Regular.woff?z5evcq') format('woff'),
+    url('fonts/Fluent-System-Regular.svg?z5evcq#Fluent-System-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fsr-icon"], [class*=" fsr-icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Fluent-System-Regular' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fsr-iconapplet:before {
+  content: "\e980";
+}
+.fsr-iconweb-interface:before {
+  content: "\e981";
+}
+.fsr-icontemplate:before {
+  content: "\e982";
+}
+.fsr-iconmockup:before {
+  content: "\e983";
+}
+.fsr-iconradio-pager:before {
+  content: "\e984";
+}
+.fsr-iconpage-up-button:before {
+  content: "\e985";
+}
+.fsr-iconweb:before {
+  content: "\e986";
+}
+.fsr-iconhazard-warning-flasher:before {
+  content: "\e987";
+}
+.fsr-iconseverity:before {
+  content: "\e988";
+}
+.fsr-icondashboard-layout:before {
+  content: "\e989";
+}
+.fsr-iconshare-3:before {
+  content: "\e98a";
+}
+.fsr-iconshare:before {
+  content: "\e98b";
+}
+.fsr-iconslide-up:before {
+  content: "\e978";
+}
+.fsr-iconnext-page:before {
+  content: "\e979";
+}
+.fsr-icondown-button:before {
+  content: "\e97a";
+}
+.fsr-iconback-to:before {
+  content: "\e97b";
+}
+.fsr-iconforward:before {
+  content: "\e97c";
+}
+.fsr-iconcollapse-arrow:before {
+  content: "\e97d";
+}
+.fsr-iconexpand-arrow:before {
+  content: "\e97e";
+}
+.fsr-iconback:before {
+  content: "\e97f";
+}
+.fsr-iconminus-mathe:before {
+  content: "\e977";
+}
+.fsr-iconminus:before {
+  content: "\e975";
+}
+.fsr-iconlschen:before {
+  content: "\e976";
+}
+.fsr-iconwochenansicht:before {
+  content: "\e96d";
+}
+.fsr-iconmillennium-rod:before {
+  content: "\e96e";
+}
+.fsr-iconturnier-modus:before {
+  content: "\e96f";
+}
+.fsr-iconfavoriten-ticket:before {
+  content: "\e970";
+}
+.fsr-iconalter-shop:before {
+  content: "\e971";
+}
+.fsr-iconsandkasten2:before {
+  content: "\e972";
+}
+.fsr-iconakkordeon:before {
+  content: "\e973";
+}
+.fsr-iconim-popup-ffnen:before {
+  content: "\e974";
+}
+.fsr-iconsattel-genhte-broschre:before {
+  content: "\e961";
+}
+.fsr-icongefaltete-broschre:before {
+  content: "\e962";
+}
+.fsr-iconbuch:before {
+  content: "\e963";
+}
+.fsr-iconbook-reading:before {
+  content: "\e964";
+}
+.fsr-iconoffenes-buch:before {
+  content: "\e965";
+}
+.fsr-iconchrome-lesemodus:before {
+  content: "\e966";
+}
+.fsr-iconbook-and-pencil:before {
+  content: "\e967";
+}
+.fsr-iconlesezeichen:before {
+  content: "\e968";
+}
+.fsr-iconlesen:before {
+  content: "\e969";
+}
+.fsr-iconliteratur:before {
+  content: "\e96a";
+}
+.fsr-iconsparbuch:before {
+  content: "\e96b";
+}
+.fsr-iconbcherstapel:before {
+  content: "\e96c";
+}
+.fsr-iconvon-der-cloud-herunterladen:before {
+  content: "\e95f";
+}
+.fsr-iconupdates-herunterladen:before {
+  content: "\e960";
+}
+.fsr-iconchess-clock:before {
+  content: "\e959";
+}
+.fsr-iconordner-ffnen:before {
+  content: "\e95a";
+}
+.fsr-iconexterner-link:before {
+  content: "\e95b";
+}
+.fsr-iconwiederkehrender-termin:before {
+  content: "\e95c";
+}
+.fsr-iconsanduhr:before {
+  content: "\e95d";
+}
+.fsr-iconzeit:before {
+  content: "\e95e";
+}
+.fsr-iconwrfel:before {
+  content: "\e93e";
+}
+.fsr-iconzeichen-palette:before {
+  content: "\e93f";
+}
+.fsr-iconzentrum-der-schwerkraft:before {
+  content: "\e940";
+}
+.fsr-iconzeugnis:before {
+  content: "\e941";
+}
+.fsr-iconzuhause:before {
+  content: "\e942";
+}
+.fsr-iconaktenschrank:before {
+  content: "\e943";
+}
+.fsr-iconapi-einstellungen:before {
+  content: "\e944";
+}
+.fsr-iconbenutzer:before {
+  content: "\e945";
+}
+.fsr-icondatenbank:before {
+  content: "\e946";
+}
+.fsr-icondesign:before {
+  content: "\e947";
+}
+.fsr-icone-learning:before {
+  content: "\e948";
+}
+.fsr-iconfarbeimer:before {
+  content: "\e949";
+}
+.fsr-iconfarbpalette:before {
+  content: "\e94a";
+}
+.fsr-iconfrau-sprechen:before {
+  content: "\e94b";
+}
+.fsr-icongithub:before {
+  content: "\e94c";
+}
+.fsr-iconhilfe:before {
+  content: "\e94d";
+}
+.fsr-iconinfo1:before {
+  content: "\e94e";
+}
+.fsr-iconkampf:before {
+  content: "\e94f";
+}
+.fsr-iconkurse:before {
+  content: "\e950";
+}
+.fsr-iconkurs-zuordnen:before {
+  content: "\e951";
+}
+.fsr-iconmnnlicher-benutzer-eingekreist:before {
+  content: "\e952";
+}
+.fsr-iconmerge-git:before {
+  content: "\e953";
+}
+.fsr-iconmyspace:before {
+  content: "\e954";
+}
+.fsr-iconpaint-palette-with-brush:before {
+  content: "\e955";
+}
+.fsr-iconquellcode:before {
+  content: "\e956";
+}
+.fsr-iconber:before {
+  content: "\e957";
+}
+.fsr-iconweb-design:before {
+  content: "\e958";
+}
+.fsr-iconrotate-left:before {
+  content: "\e93c";
+}
+.fsr-iconrotate-right:before {
+  content: "\e93d";
+}
+.fsr-iconchecked:before {
+  content: "\e939";
+}
+.fsr-iconcheckmark:before {
+  content: "\e93a";
+}
+.fsr-iconcheckbox-checked:before {
+  content: "\e93b";
+}
+.fsr-iconmultiply:before {
+  content: "\e936";
+}
+.fsr-iconsign-delete:before {
+  content: "\e937";
+}
+.fsr-iconwindow-close:before {
+  content: "\e938";
+}
+.fsr-icontime:before {
+  content: "\e935";
+}
+.fsr-iconimport:before {
+  content: "\e92d";
+}
+.fsr-iconcomputer-under:before {
+  content: "\e92e";
+}
+.fsr-iconenter-2:before {
+  content: "\e92f";
+}
+.fsr-iconlogin-rounded-down:before {
+  content: "\e930";
+}
+.fsr-iconlogin-rounded-up:before {
+  content: "\e931";
+}
+.fsr-iconlogin-rounded-right:before {
+  content: "\e932";
+}
+.fsr-iconkey:before {
+  content: "\e933";
+}
+.fsr-iconlogin-rounded-left:before {
+  content: "\e934";
+}
+.fsr-iconmath-plus:before {
+  content: "\e926";
+}
+.fsr-iconproperty-edit:before {
+  content: "\e927";
+}
+.fsr-iconedit:before {
+  content: "\e928";
+}
+.fsr-iconbutton-2:before {
+  content: "\e929";
+}
+.fsr-iconpropterty-add:before {
+  content: "\e92a";
+}
+.fsr-iconinfo:before {
+  content: "\e92b";
+}
+.fsr-icontrash:before {
+  content: "\e92c";
+}
+.fsr-iconmoney-bag-dollar:before {
+  content: "\e91c";
+}
+.fsr-iconmoney-transfer:before {
+  content: "\e91d";
+}
+.fsr-iconmacbook-money-dollar:before {
+  content: "\e91e";
+}
+.fsr-iconmoney:before {
+  content: "\e91f";
+}
+.fsr-iconbusiness-management:before {
+  content: "\e920";
+}
+.fsr-iconmoney-stack:before {
+  content: "\e921";
+}
+.fsr-iconmoney-bag-euro:before {
+  content: "\e922";
+}
+.fsr-iconmoney-love:before {
+  content: "\e923";
+}
+.fsr-iconmoney-bag-pound:before {
+  content: "\e924";
+}
+.fsr-iconmoney-box:before {
+  content: "\e925";
+}
+.fsr-iconsummary-list:before {
+  content: "\e918";
+}
+.fsr-iconlist-2:before {
+  content: "\e919";
+}
+.fsr-icontodo-list:before {
+  content: "\e91a";
+}
+.fsr-iconlist:before {
+  content: "\e91b";
+}
+.fsr-iconpages-overview-1:before {
+  content: "\e916";
+}
+.fsr-iconpages-overview-2:before {
+  content: "\e917";
+}
+.fsr-iconpages-overview-4:before {
+  content: "\e915";
+}
+.fsr-iconpages-overview-3:before {
+  content: "\e914";
+}
+.fsr-iconsave:before {
+  content: "\e912";
+}
+.fsr-iconfile-search:before {
+  content: "\e913";
+}
+.fsr-iconfile:before {
+  content: "\e906";
+}
+.fsr-iconfile-send:before {
+  content: "\e907";
+}
+.fsr-iconfile-table:before {
+  content: "\e908";
+}
+.fsr-iconfile-add:before {
+  content: "\e909";
+}
+.fsr-iconfile-remove:before {
+  content: "\e90a";
+}
+.fsr-iconfile-delete:before {
+  content: "\e90b";
+}
+.fsr-iconfile-edit:before {
+  content: "\e90c";
+}
+.fsr-iconfile-receive:before {
+  content: "\e90d";
+}
+.fsr-iconfile-coded:before {
+  content: "\e90e";
+}
+.fsr-iconfile-check:before {
+  content: "\e90f";
+}
+.fsr-iconwindows-explorer:before {
+  content: "\e910";
+}
+.fsr-iconarchive:before {
+  content: "\e911";
+}
+.fsr-iconsave-archive:before {
+  content: "\e904";
+}
+.fsr-icondelete-archive:before {
+  content: "\e905";
+}
+.fsr-iconopen-archive:before {
+  content: "\e903";
+}
+.fsr-iconcreate-archive:before {
+  content: "\e902";
+}
+.fsr-iconsettings:before {
+  content: "\e901";
+}
+.fsr-iconhome:before {
+  content: "\e900";
+}
