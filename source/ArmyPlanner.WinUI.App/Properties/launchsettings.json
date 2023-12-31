@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "ArmyPlanner.WinUI.App (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "ArmyPlanner.WinUI.App (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
